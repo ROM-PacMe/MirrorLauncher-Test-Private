@@ -210,13 +210,10 @@ body {
     }
   }
   .slider__slide:nth-child(1) .slider__back, .slider__slide:nth-child(1) .slider__inner {
-    background-image: url(https://unsplash.it/1600/800/?image=931);
+    background-image: url(../img/1.jpg);
   }
   .slider__slide:nth-child(2) .slider__back, .slider__slide:nth-child(2) .slider__inner {
     background-image: url(https://unsplash.it/1600/800/?image=929);
-  }
-  .slider__slide:nth-child(3) .slider__back, .slider__slide:nth-child(3) .slider__inner {
-    background-image: url(https://unsplash.it/1600/800/?image=927);
   }
   
   .sig {
