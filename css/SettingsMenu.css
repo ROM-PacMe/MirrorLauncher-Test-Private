@@ -231,3 +231,59 @@ body {
     letter-spacing: 2px;
     z-index: 9999;
   }
+
+  @import url("https://fonts.googleapis.com/css?family=Amatic+SC");
+@import url("https://fonts.googleapis.com/css?family=Quicksand:300");
+@import url(https://fonts.googleapis.com/css?family=Ubuntu);
+
+* {
+	margin: 0;
+	padding: 0;
+}
+body {
+	width: 100vw;
+    overflow-x: hidden;
+    background-color: black;
+}
+.container {
+	width: 100vw;
+	height: 100vh;
+}
+h1 {
+	text-align: center;
+	position: relative;
+	top: 50px;
+	color: white;
+	font-family: "Ubuntu";
+	letter-spacing: 10px;
+}
+.intro {
+	position: relative;
+	width: 150px;
+	left: 15%;
+	top: 27%;
+	transform: translateX(-50%);
+	text-align: center;
+	color: white;
+}
+.intro p {
+	font-family: "Quicksand", sans-serif;
+    font-size: 27px;
+    
+}
+.date {
+	font-family: "Amatic SC", cursive;
+	font-size: 50px;
+	font-weight: bolder;
+	line-height: 90%;
+}
+.time {
+	font-family: "Amatic SC", cursive;
+	font-size: 80px;
+	font-weight: bolder;
+	line-height: 100%;
+}
+.textstyle p {
+	font-size: 30px;
+	line-height: 110%;
+}
